@@ -160,8 +160,8 @@ public class LibraryManagementSystem {
         lib.addBook(new Book(1, "Clean Code", "Robert C. Martin", 3));
         lib.addBook(new Book(2, "Effective Java", "Joshua Bloch", 2));
 
-        lib.addStudent(new Student(101, "Charchit"));
-        lib.addStudent(new Student(102, "Kalash"));
+        lib.addStudent(new Student(101, "Aman"));
+        lib.addStudent(new Student(102, "Astitva"));
 
         // display students so displayStudent() is actually used
         for (Student s : lib.students) {
@@ -182,3 +182,4 @@ public class LibraryManagementSystem {
         lib.displayIssuedBooks();
     }
 }
+
